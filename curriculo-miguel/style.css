@@ -1,0 +1,67 @@
+body{
+   background-color: #C0C0C0;
+}
+h1{
+ color:black;
+ text-align: center;
+}
+h2{ 
+   color:black;
+   text-align: center;
+}
+#nome {
+   text-align: center;
+}
+#elementos {
+   background-color: white;
+   width: 60vw;
+   display: flex;
+   position: absolute;
+   flex-direction: column;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   gap: 5px;
+   padding: 20px;
+}
+
+#site {
+   text-align: center;
+}
+
+.regiao{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.sexo{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#nome input{
+   width: 100%;
+   
+}
+
+#button{
+   text-align: center;
+}
+
+#button button{
+   width: 100%;
+}
+
+select, input{
+   border: 0;
+   border-bottom: 1px solid black;
+}
+
+@media (max-width: 500px) {
+   .regiao{
+      flex-direction: column;
+   }
+   .regiao div, select{
+      width: 60vw;
+   }
+}
